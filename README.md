@@ -18,6 +18,7 @@ The application is structured with a main class `App` and an inner class `Task`.
 ### App Class
 
 - **Fields**:
+
   - `Scanner sc`: For reading user input.
   - `HashMap<String, ArrayList<Task>> category`: Stores tasks categorized.
   - `ArrayList<Task> tasks`: List of all tasks.
@@ -36,6 +37,7 @@ The application is structured with a main class `App` and an inner class `Task`.
 ### Task Class
 
 - **Fields**:
+
   - `String title`: Task title.
   - `String description`: Task description.
   - `String category`: Task category.
@@ -49,10 +51,11 @@ The application is structured with a main class `App` and an inner class `Task`.
 ### Running the Application
 
 1. Clone the repository to your local machine:
-    ```sh
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
-    ```
+
+   ```sh
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
+   ```
 
 2. Open the project in your preferred IDE (e.g., VS Code).
 
@@ -65,24 +68,26 @@ If you encounter an error related to `index.lock`, you can remove the file manua
 1. Open PowerShell.
 
 2. Navigate to your repository:
-    ```sh
-    cd D:\Javapocalypse
-    ```
+
+   ```sh
+   cd D:\Javapocalypse
+   ```
 
 3. List all files, including hidden ones:
-    ```sh
-    ls -Force
-    ```
+
+   ```sh
+   ls -Force
+   ```
 
 4. Remove the `index.lock` file:
-    ```sh
-    Remove-Item -Force .git\index.lock
-    ```
+   ```sh
+   Remove-Item -Force .git\index.lock
+   ```
 
 ├── .gitignore
 ├── README.md
 ├── bin
-│   └── (compiled classes)
+│ └── (compiled classes)
 ├── src
-│   ├── App.java
-│   └── (other source files)
+│ ├── App.java
+│ └── (other source files)
