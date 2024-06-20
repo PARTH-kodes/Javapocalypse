@@ -83,3 +83,76 @@ If you encounter an error related to `index.lock`, you can remove the file manua
    ```sh
    Remove-Item -Force .git\index.lock
    ```
+
+### Compiling the Application
+
+1. Open a terminal or command prompt.
+
+2. Navigate to the directory where your `App.java` file is located:
+
+```sh
+cd path\to\your\project\src
+```
+
+3. Compile the Java file:
+
+```sh
+javac App.java
+```
+
+### Running the Application
+
+1. Run the compiled Java file:
+
+```sh
+java App
+```
+
+### Handling the Errors
+
+- **Missing `javac` or `java` Commands**
+  If you get an error saying `javac` or `java` is not recognized as an internal or external command, ensure that the JDK is properly installed and the `JAVA_HOME` environment variable is set.
+
+  - **Verify the Installation**
+
+  ```sh
+  java -version
+  javac -version
+  ```
+
+  - If Java is not installed, download and install the JDK from Oracle's official site or OpenJDK.
+
+  - Add the JDK bin directory to your `PATH` environment variable.
+
+- **Troubleshooting Compilation Errors**
+  - Ensure all required classes are in the correct directories.
+  - Ensure all required classes are in the correct directories.
+  - Check for missing imports.
+
+### Cleaning Up
+
+If you want to clean up the compiled files:
+
+1. Navigate to the directory where your `.class` files are located.
+
+2. Remove the `.class` files:
+
+```sh
+del *.class
+```
+
+Or, if you're using a Unix-based system:
+
+```sh
+rm *.class
+```
+
+### Additional Tips
+
+- Make sure you are using the correct version of Java that matches your codebase.
+
+- Regularly commit and push your changes to avoid losing your progress.
+
+- Use version control branching to manage different features or fixes without affecting the main codebase.
+
+- Follow the on-screen instructions to interact with the ToDoList application.
