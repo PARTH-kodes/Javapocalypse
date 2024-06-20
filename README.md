@@ -83,11 +83,3 @@ If you encounter an error related to `index.lock`, you can remove the file manua
    ```sh
    Remove-Item -Force .git\index.lock
    ```
-
-├── .gitignore
-├── README.md
-├── bin
-│ └── (compiled classes)
-├── src
-│ ├── App.java
-│ └── (other source files)
