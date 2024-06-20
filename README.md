@@ -80,6 +80,7 @@ If you encounter an error related to `index.lock`, you can remove the file manua
    ```
 
 4. Remove the `index.lock` file:
+
    ```sh
    Remove-Item -Force .git\index.lock
    ```
@@ -90,23 +91,23 @@ If you encounter an error related to `index.lock`, you can remove the file manua
 
 2. Navigate to the directory where your `App.java` file is located:
 
-```sh
-cd path\to\your\project\src
-```
+   ```sh
+   cd path\to\your\project\src
+   ```
 
 3. Compile the Java file:
 
-```sh
-javac App.java
-```
+   ```sh
+   javac App.java
+   ```
 
 ### Running the Application
 
 1. Run the compiled Java file:
 
-```sh
-java App
-```
+   ```sh
+   java App
+   ```
 
 ### Handling the Errors
 
@@ -137,15 +138,15 @@ If you want to clean up the compiled files:
 
 2. Remove the `.class` files:
 
-```sh
-del *.class
-```
+   ```sh
+   del *.class
+   ```
 
-Or, if you're using a Unix-based system:
+   Or, if you're using a Unix-based system:
 
-```sh
-rm *.class
-```
+   ```sh
+   rm *.class
+   ```
 
 ### Additional Tips
 
